@@ -9,3 +9,8 @@ const observer = new IntersectionObserver(entries=>{
 document.querySelectorAll(".fade").forEach(el=>{
  observer.observe(el);
 });
+
+window.addEventListener("scroll",()=>{
+ document.querySelector("header")
+  .classList.toggle("shrink",window.scrollY>80);
+});
