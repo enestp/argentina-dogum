@@ -13,14 +13,14 @@ const observer = new IntersectionObserver(entries=>{
 document.querySelectorAll(".fade").forEach(el=>observer.observe(el));
 
 function copyMail(){
-  navigator.clipboard.writeText("ilkadımarjantin@gmail.com");
+  navigator.clipboard.writeText("ilkadimarjantin@gmail.com");
   alert("Mail adresi kopyalandı");
 }
 
 function sendMail(e){
   e.preventDefault();
 
-  const email = "ilkadımarjantin@gmail.com";
+  const email = "ilkadimarjantin@gmail.com";
   const subject = encodeURIComponent("Arjantin’de Doğum Hakkında Bilgi");
   const body = encodeURIComponent(
     "Merhaba,\n\n" +
@@ -39,3 +39,4 @@ function sendMail(e){
     );
   },600);
 }
+
