@@ -42,7 +42,7 @@ nav a{
       rgba(15,61,94,.85),
       rgba(15,61,94,.85)
     ),
-    url("assets/hero.png");
+    url("hero.png");
   background-size:cover;
   background-position:center;
   display:flex;
@@ -262,3 +262,4 @@ footer{
   font-size:15px;
   line-height:1.6;
 }
+
